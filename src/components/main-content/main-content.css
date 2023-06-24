@@ -1,0 +1,148 @@
+.main-content {
+    background-color: #fff;
+    box-shadow: 0px 4px 5px #E9EDF3;
+    border-radius: 8px;
+    margin-bottom: 3.125rem;
+}
+
+/* Calls Table  */
+.main-content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.main-content table .table-columns, 
+.main-content table .table-rows {
+    height: 4.0625rem;
+    border-bottom: 1px solid #EAF0FA;
+}
+.main-content table .table-columns:hover, 
+.main-content table .table-rows:hover {
+    background: rgba(212, 223, 243, 0.17);
+    transition: all .3s ease;
+}
+.main-content table .table-columns th:nth-child(1), 
+.main-content table .table-rows th:nth-child(1) {
+    width: 10px;
+}
+
+/* Table columns  */
+.main-content table .table-columns th {
+    padding-left: 1.25rem;
+    text-align: start;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #899CB1;
+    line-height: 100%;
+}
+.main-content table .table-columns th:last-child {
+    text-align: end;
+    padding-right: 1.25rem;
+}
+
+/* Table rows  */
+.main-content table .table-rows td:last-child {
+    text-align: end;
+    padding-right: 1.25rem;
+}
+.main-content table .table-rows td {
+    padding-left: 1.25rem;
+    font-weight: 400;
+    font-size: 0.93rem;
+    color: #122945;
+    line-height: 140%;
+}
+.main-content table .table-rows td:nth-child(6) {
+    color: #5E7793;
+}
+.main-content table .table-rows td:nth-child(4) .MuiAvatar-root {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* Table Checkbox Input  */
+.main-content table input[type=checkbox] {
+    appearance: none;
+    width: .8rem;
+    height: .8rem;
+    border-radius: 2px;
+    outline: 1px solid #ADBFDF;
+    border:  none !important;
+    cursor: pointer;
+}
+.main-content table .table-rows td input {
+    display: none;
+}
+.main-content table .table-rows:hover td input {
+    display: block;
+}
+
+/* Table Call Status Icon  */
+.main-content table .table-rows td .call-status_blue {
+    color: #002CFB;
+}
+.main-content table .table-rows td .call-status_green {
+    color: #28A879;
+}
+.main-content table .table-rows td .call-status_red {
+    color: #EA1A4F;
+}
+
+
+/* Table Dot Icon  */
+.main-content table .table-rows td .icon-great .MuiSvgIcon-root {
+    font-size: .7rem;
+    color: #28A879;   
+}
+.main-content table .table-rows td .icon-fine .MuiSvgIcon-root {
+    font-size: .7rem;
+    color: #ADBFDF;
+}
+.main-content table .table-rows td .icon-badly .MuiSvgIcon-root {
+    font-size: .7rem;
+    color: #EA1A4F;
+}
+
+/* Table Buttons  */
+.main-content table .table-rows td .btn { 
+    margin-left: 8px;
+    border-radius: 4px;
+    padding: 6px 8px;
+    font-size: 0.875rem;
+    line-height: 100%;
+}
+.main-content table .table-rows td .btn-great {
+    color: #00A775;
+    background: #DBF8EF;
+    border: 1px solid #28A879;
+}
+.main-content table .table-rows td .btn-fine {
+    color: #122945;
+    background: #D8E4FB;
+    border: 1px solid #ADBFDF;
+}
+.main-content table .table-rows td .btn-badly {
+    color: #EA1A4F;
+    background: #FEE9EF;
+    border: 1px solid #EA1A4F;
+}
+
+
+/* Table Audio Styles  */
+/* .main-content table .table-rows td audio {
+    height: 3rem;
+    background-color: #EAF0FA;
+    border-radius: 3rem;
+}
+audio::-webkit-media-controls-panel {
+    background-color: #EAF0FA;
+    border-radius: 3rem;
+}
+audio::-webkit-media-controls-mute-button {
+    display: none;
+}
+audio::-webkit-progress-bar {
+    width: 164px;
+}
+audio::-webkit-media-controls-timeline {
+    display: none;
+} */

@@ -1,0 +1,74 @@
+.header {
+    background-color: #fff;
+    height: 4rem; 
+    padding-top: 10px;
+}
+.header-flexBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header .current-date {
+    color: #899CB1;
+    font-size: 0.93rem;
+}
+
+/* Header ul section  */
+.header .list-items {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.header .list-items .list-item {
+    color: #122945;
+    font-size: 0.875rem;
+    font-weight: normal;
+}
+.header .list-items .list-item ~ span::before {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 20px;
+    border-radius: 5px;
+    color: #899CB1;
+}
+
+.header .list-items .list-item:nth-child(1) p span {
+    color: #00A775;
+}
+.header .list-items .list-item:nth-child(2) p span {
+    color: 
+    #FFB800;
+}
+.header .list-items .list-item:nth-child(3) p span {
+    color: #EA1A4F;
+}
+
+/* Header user info section  */
+.header .user-info {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: #899CB1;
+}
+.header .user-info .MuiSvgIcon-root {
+    color: #ADBFDF;
+    opacity: 0.8;
+    font-size: 1.42rem;
+}
+
+.header .user-info p {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 2px;
+    font-size: 0.93rem;
+}
+.header .user-info .user-avatar {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}

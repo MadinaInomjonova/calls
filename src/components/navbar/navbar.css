@@ -1,0 +1,104 @@
+.navbar {
+    margin: 1.25rem 0;
+}
+.navbar .MuiSvgIcon-root {
+    color: #ADBFDF;
+}
+
+.navbar-top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 3rem;
+    margin-bottom: 2.125rem;
+}
+
+.navbar-top button {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    background-color: #fff;
+    border-radius: 3rem;
+    border: 1px solid transparent;
+    padding: 0.5rem 0.75rem;
+    color: #899CB1;
+    font-size: 0.875rem;
+}
+.navbar-top button:hover {
+    cursor: pointer;
+}
+.navbar-top button span {
+    color: #122945;
+    font-weight: 600;
+}
+.navbar-top button:hover span {
+    color: #0024CB;
+    transition: all .3s ease;
+}
+.navbar-top button .MuiSvgIcon-root {
+    background-color: #005FF8;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.navbar-top .calendar {
+    display: flex;
+    align-items: center;
+    gap: 1.375rem;
+    color: #ADBFDF;
+}
+.navbar-top .calendar p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #005FF8;
+    font-size: 0.875rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+/* Navbar bottom  */
+.navbar-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-bottom .search-calls {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: #5E7793;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+.navbar-bottom .list-items {
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+}
+.navbar-bottom .list-items .list-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #5E7793;
+    font-size: 0.875rem;
+}
+.navbar-bottom .list-items .list-item .MuiSvgIcon-root {
+    opacity: 0.8;
+    font-size: 1.42rem;
+}
+
+
+/* Hover effects  */
+.navbar-top .calendar .MuiSvgIcon-root:hover,
+.navbar-top .calendar p:hover .MuiSvgIcon-root,
+.navbar-bottom .search-calls:hover .MuiSvgIcon-root,
+.navbar-bottom .list-items .list-item:hover,
+.navbar-bottom .list-items .list-item:hover .MuiSvgIcon-root {
+    cursor: pointer;
+    color: #002CFB;
+    transition: all .3s ease;
+}
